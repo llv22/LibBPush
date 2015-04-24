@@ -114,7 +114,7 @@ Pod::Spec.new do |s|
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
   # Orlando, Ding 2015/04/25
-  #s.preserve_paths = "LibBPush/*.a"
+  s.preserve_paths = "LibBPush/*.a"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

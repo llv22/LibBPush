@@ -128,8 +128,11 @@ Pod::Spec.new do |s|
   # Orlando, Ding 2015/04/25
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
-  s.framework = 'CoreTelephony','SystemConfiguration'
-  s.libraries = 'BPush' # removal of invalid 'z'
+  # https://github.com/tcurdt/cocoapods-specs/blob/master/UMeng/2.1.1/UMeng.podspec
+  s.framework = 'CoreTelephony', 'SystemConfiguration' #, %w{libz.dylib}
+  s.libraries = 'z', 'BPush' 
+  # Undefined symbols for architecture arm64: "_deflate", referenced from: -[LAGzipCompressor compressBytes:length:shouldFinish:] in libBPush.a(LAGzipCompressor.o)
+  # linked to libz.dylib
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

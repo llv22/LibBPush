@@ -129,7 +129,7 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
   s.framework = 'CoreTelephony','SystemConfiguration'
-  s.libraries = 'z','BPush'
+  s.libraries = 'BPush' # removal of invalid 'z'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

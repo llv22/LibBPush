@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LibBPush"
-  s.version      = "1.3.0"
+  s.version      = "1.4.2"
   s.summary      = "L1 version provided by baidu.com,LibBPush,for iOS SDK support in BCE cloud,previous BAE"
 
   s.description  = <<-DESC
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "http://developer.baidu.com/wiki/index.php?title=docs/cplat/push/sdk/clientsdk"
+  s.homepage     = "http://push.baidu.com/sdk/push_client_sdk_for_ios"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "5.0"
+  s.platform     = :ios, "6.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/llv22/LibBPush.git", :tag => "1.3.0" }
+  s.source       = { :git => "https://github.com/llv22/LibBPush.git", :tag => "1.4.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -41,7 +41,7 @@
     #warning 测试 开发环境 时需要修改BPushMode为BPushModeDevelopment 需要修改Apikey为自己的Apikey
     
     // 在 App 启动时注册百度云推送服务，需要提供 Apikey
-    [BPush registerChannel:launchOptions apiKey:<#在百度云推送官网上注册后得到的apikey#> pushMode:BPushModeDevelopment withFirstAction:nil withSecondAction:nil withCategory:nil isDebug:YES];
+    [BPush registerChannel:launchOptions apiKey:@"YourKey" pushMode:BPushModeDevelopment withFirstAction:nil withSecondAction:nil withCategory:nil isDebug:YES];
     // App 是用户点击推送消息启动
     NSDictionary *userInfo = [launchOptions objectForKey:UIApplicationLaunchOptionsRemoteNotificationKey];
     if (userInfo) {

@@ -11,13 +11,12 @@
 		792E5B3C1AA5982200E57331 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792E5B3B1AA5982200E57331 /* CoreTelephony.framework */; };
 		792E5B3E1AA5982E00E57331 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 792E5B3D1AA5982E00E57331 /* libz.dylib */; };
 		792E5B441AA5987400E57331 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792E5B431AA5987400E57331 /* SystemConfiguration.framework */; };
+		E10EE7A31BBBCF0A0007E724 /* libBPush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E10EE7A21BBBCF0A0007E724 /* libBPush.a */; settings = {ASSET_TAGS = (); }; };
 		E15238181B53AB2C00AC56FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E152380F1B53AB2C00AC56FB /* AppDelegate.m */; };
 		E152381A1B53AB2C00AC56FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15238121B53AB2C00AC56FB /* Images.xcassets */; };
 		E152381C1B53AB2C00AC56FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E15238141B53AB2C00AC56FB /* main.m */; };
 		E152381D1B53AB2C00AC56FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E15238161B53AB2C00AC56FB /* ViewController.m */; };
 		E152381E1B53AB2C00AC56FB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E15238171B53AB2C00AC56FB /* ViewController.xib */; };
-		E15238221B53AC0200AC56FB /* libBPush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E15238211B53AC0200AC56FB /* libBPush.a */; };
-		E1A51A861BB2A50C005A948A /* test.caf in Resources */ = {isa = PBXBuildFile; fileRef = E1A51A851BB2A50C005A948A /* test.caf */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +25,8 @@
 		792E5B3B1AA5982200E57331 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		792E5B3D1AA5982E00E57331 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		792E5B431AA5987400E57331 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E10EE7A11BBBCF0A0007E724 /* BPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPush.h; sourceTree = "<group>"; };
+		E10EE7A21BBBCF0A0007E724 /* libBPush.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBPush.a; sourceTree = "<group>"; };
 		E152380E1B53AB2C00AC56FB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E152380F1B53AB2C00AC56FB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E15238121B53AB2C00AC56FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -34,9 +35,6 @@
 		E15238151B53AB2C00AC56FB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E15238161B53AB2C00AC56FB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E15238171B53AB2C00AC56FB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		E15238201B53AC0200AC56FB /* BPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPush.h; sourceTree = "<group>"; };
-		E15238211B53AC0200AC56FB /* libBPush.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBPush.a; sourceTree = "<group>"; };
-		E1A51A851BB2A50C005A948A /* test.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +43,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				792E5B441AA5987400E57331 /* SystemConfiguration.framework in Frameworks */,
-				E15238221B53AC0200AC56FB /* libBPush.a in Frameworks */,
+				E10EE7A31BBBCF0A0007E724 /* libBPush.a in Frameworks */,
 				792E5B3E1AA5982E00E57331 /* libz.dylib in Frameworks */,
 				792E5B3C1AA5982200E57331 /* CoreTelephony.framework in Frameworks */,
 				792E5B3A1AA5981700E57331 /* CoreGraphics.framework in Frameworks */,
@@ -58,7 +56,7 @@
 		792E5B041AA5963400E57331 = {
 			isa = PBXGroup;
 			children = (
-				E152381F1B53AC0200AC56FB /* LibBPush */,
+				E10EE7A01BBBCF0A0007E724 /* LibBPush */,
 				E152380D1B53AB2C00AC56FB /* BPushDevDemo */,
 				795A4FA51AA6A1F7008D06FB /* Frameworks */,
 				792E5B0E1AA5963400E57331 /* Products */,
@@ -84,6 +82,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E10EE7A01BBBCF0A0007E724 /* LibBPush */ = {
+			isa = PBXGroup;
+			children = (
+				E10EE7A11BBBCF0A0007E724 /* BPush.h */,
+				E10EE7A21BBBCF0A0007E724 /* libBPush.a */,
+			);
+			name = LibBPush;
+			path = ../../LibBPush;
+			sourceTree = "<group>";
+		};
 		E152380D1B53AB2C00AC56FB /* BPushDevDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,17 +105,6 @@
 				E15238171B53AB2C00AC56FB /* ViewController.xib */,
 			);
 			path = BPushDevDemo;
-			sourceTree = "<group>";
-		};
-		E152381F1B53AC0200AC56FB /* LibBPush */ = {
-			isa = PBXGroup;
-			children = (
-				E15238201B53AC0200AC56FB /* BPush.h */,
-				E15238211B53AC0200AC56FB /* libBPush.a */,
-				E1A51A851BB2A50C005A948A /* test.caf */,
-			);
-			name = LibBPush;
-			path = ../LibBPush;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +138,7 @@
 				TargetAttributes = {
 					792E5B0C1AA5963400E57331 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = YCD99G68QQ;
+						DevelopmentTeam = 84Z8KQ6A9Q;
 					};
 				};
 			};
@@ -170,7 +167,6 @@
 			files = (
 				E152381A1B53AB2C00AC56FB /* Images.xcassets in Resources */,
 				E152381E1B53AB2C00AC56FB /* ViewController.xib in Resources */,
-				E1A51A861BB2A50C005A948A /* test.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +275,7 @@
 				INFOPLIST_FILE = BPushDevDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../LibBPush";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../LibBPush";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = DevDemo;
 				PROVISIONING_PROFILE = "ebcc3e07-c040-420a-ade1-44488ed8d93e";
@@ -298,7 +294,7 @@
 				INFOPLIST_FILE = BPushDevDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../LibBPush";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../LibBPush";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = DevDemo;
 				PROVISIONING_PROFILE = "ebcc3e07-c040-420a-ade1-44488ed8d93e";
